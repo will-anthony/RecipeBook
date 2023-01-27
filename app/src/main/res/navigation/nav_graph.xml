@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recipeFragment">
+
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="uk.co.willanthony.myrecipes.RecipeFragment"
+        android:label="fragment_recipe"
+        tools:layout="@layout/fragment_recipe" />
+    <fragment
+        android:id="@+id/inventionsFragment"
+        android:name="uk.co.willanthony.myrecipes.InventionsFragment"
+        android:label="fragment_inventions"
+        tools:layout="@layout/fragment_inventions" />
+    <fragment
+        android:id="@+id/favouriteRecipeFragment"
+        android:name="uk.co.willanthony.myrecipes.FavouriteRecipeFragment"
+        android:label="fragment_favourite_recipe"
+        tools:layout="@layout/fragment_favourite_recipe" />
+</navigation>
